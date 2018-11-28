@@ -1,0 +1,185 @@
+@media screen and (max-width: 780px) {
+
+    header nav {
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav li {
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-top: 1px solid #00DFCF;
+        padding: 10px 0;
+    }
+
+    .team .container ul li {
+        float: left;
+        width: 50%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .clients li {
+        width: 100%;
+    }
+
+    .clients ul {
+        text-align: center;
+    }
+
+    .clients li input {
+        border: 1px solid #999;
+    }
+
+    footer ul {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer ul:nth-child(2) {
+        padding: 0;
+        margin: 0;
+    }
+
+    footer ul:first-child {
+        padding: 0;
+        margin: 0;
+    }
+
+    footer ul .logo-footer {
+        margin-top: 50px;
+    }
+
+    footer ul li p {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+
+    .story li {
+        width: 100%;
+    }
+
+    .story ul {
+        text-align: center;
+    }
+
+    .expertise li:nth-child(2),
+    .expertise li:nth-child(5)
+    {
+        padding: 0 !important;
+    }
+    .expertise .hr{
+        margin-left: -100px;
+    }
+
+    .expertise li {
+        padding: 0;
+        margin: 0;
+        width: 45%;
+        text-align: center;
+    }
+
+    .expertise ul:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .expertise ul {
+        position: relative;
+        left: 20px;
+    }
+    .video .icon img{
+        margin-left: -100px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .banner p{
+        line-height: 50%;
+    }
+    .banner hr{
+        margin-left: 30px;
+    }
+
+    .video {
+        margin-top: 130px;
+    }
+    .video .icon img,h3{
+        margin-left: 50%;
+    }
+    .story .button{
+        margin-top: -20px;
+    }
+
+    .expertise li {
+        width: 100%;
+        position: relative;
+        left: -20px;
+    }
+
+    .expertise li:nth-child(2) p{
+        margin-top: 13px;
+    }
+    .expertise li:nth-child(3) p{
+        margin-top: 26px;
+    }
+    .expertise li:nth-child(5) p{
+        margin-top: 13px;
+    }
+    .expertise li:nth-child(6) p{
+        margin-top: 13px;
+    }
+
+    .quote .author h3{
+        margin-left: 30px;
+    }
+
+    .team .container ul li {
+        width: 100%;
+    }
+
+
+    .clients li input {
+        width: 100%;
+        min-width: 150px;
+    }
+
+    .clients li textarea {
+        width: 100%;
+        min-width: 150px;
+    }
+
+    footer ul li button {
+        margin-top:15px;
+    }
+
+    footer .copyright ul {
+        margin-top: 40px;
+    }
+
+    footer .copyright ul li {
+        width: 100%;
+    }
+
+    footer .copyright ul li p{
+        margin-left: 100px;
+    }
+    footer .copyright ul li:nth-child(2){
+        margin-top: 10px;
+    }
+    footer .copyright ul li:first-child{
+        margin-top: 50px;
+    }
+
+}
