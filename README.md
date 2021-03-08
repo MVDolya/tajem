@@ -1,4 +1,4 @@
- ## Дизайн (Figma) и верстка (HTML, CSS, jQuery).
+ ## Дизайн (PNG) и верстка (HTML, CSS, jQuery).
 
 
 
